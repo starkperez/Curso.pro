@@ -33,17 +33,18 @@ c = (edad>=edad1)
 
 print (f"el resultado es {a} {b} {c} ")
  
-calificacion = 90
+calificacion = 90-100
 
-if calificacion < 100:
+if calificacion >= 90:
     print ("eres del grado A")
 
-elif calificacion == 100:
+elif calificacion < 90:
     print ("no eres del grado A")
     
 else: 
     
     print ("casi pasas para el grado A")
+
 
 
 
