@@ -28,8 +28,11 @@ INSERT INTO Datos (Cedula, Nombre, Apellido, Edad, Numero_telefono) VALUES
 
 INSERT INTO Peliculas (Nombre_peli, Genero, Estudio, Director, Personaje_Principal, Cedula) VALUES
 
-("Avengers 1", "Ciencia ficcion", "Marvel", "Kevin Feige", "Ironman", 23272642),
-("Avengers 2", "Ciencia ficcion", "Marvel", "Stan Lee", "Thor", 30278849),
-("Civil War", "Accion", "Marvel", "Alex Garland", "Capitan America", 31173021),
-("Hulk", "Accion", "Marvel", "Edward Norton", "Bruce Banner", 31642522),
-("Viuda Negra", "Marvel", "Cate Shortland", "Natasha Romanof", 32667155);
+("Avengers Uno", "Ciencia ficcion", 1, "Kevin Feige", "Ironman", 23272642),
+("Avengers Dos", "Ciencia ficcion", 2, "Stan Lee", "Thor", 30278849),
+("Civil War", "Accion", 3, "Stan Lee","Capitan America", 31173021),
+("Hulk", "Accion", 4, "Stan Lee","Bruce Banner", 31642522),
+("Viuda Negra", "Accion", 5, "Stan Lee", "Natasha Romanof", 32667155)
+("La Casa De Papel", "Accion", 6, "Jesus Colmenar", "Pedro Perez" 04145487412),
+("Juego De Tronos", "Drama, Accion, Etc", 7, "Alan Taylor", "Emilia Clarke" 04126125943),
+("Terminator" "Ciencia Ficcion" 8, "James Cameron", "Arnold Schwarzenegger" 04148546345);
